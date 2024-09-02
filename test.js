@@ -1,7 +1,6 @@
 // node js installed
 
 /*
-*/
 let email = "prateek@gmail.com"
 let password = "2134"
 let city = "bengaluru"
@@ -16,6 +15,12 @@ console.table([email, password, city]);
 alert(3+3) //we are using nodejs, not browser
 
 console.log(3);
+
+*/
+
+console.log(typeof undefined); //underfined
+console.log(typeof null); //object
+
 
 
 
