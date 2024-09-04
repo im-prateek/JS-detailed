@@ -37,7 +37,6 @@ console.log(valueInNumber); //MaN means not a number
 // true => 1 fasle => 0
 // null => 0
 
-*/
 
 let isLoggedIn = 1
 
@@ -48,6 +47,16 @@ console.log(booleanIsLoggedIn);
 // 1 => true; 0=> false
 // "" => false
 // "ram" => true
+
+*/
+
+//************************* OPERATIONS ***************** */
+console.log("1" + 2 + 2); //122
+console.log(1 + 2 + "2"); //32
+console.log((3+4) * 5 % 3); //always use brackets
+
+
+
 
 
 
