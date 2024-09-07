@@ -54,17 +54,23 @@ console.log("1" + 2 + 2); //122
 console.log(1 + 2 + "2"); //32
 console.log((3+4) * 5 % 3); //always use brackets
 
-*/
 
 
 console.log(+true);
 console.log(+"");
 
 let gameCounter = 100
-gameCounter++:
+gameCounter++
 console.log(gameCounter);
 
+*/
 
+console.log("2" > 1);
+console.log("02" > 1);
 
+console.log(null > 0); //false
+console.log(null == 0); //false
+console.log(null >= 0); //true
 
+console.log("2" === 2);
 
