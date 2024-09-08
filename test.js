@@ -63,7 +63,6 @@ let gameCounter = 100
 gameCounter++
 console.log(gameCounter);
 
-*/
 
 console.log("2" > 1);
 console.log("02" > 1);
@@ -73,4 +72,13 @@ console.log(null == 0); //false
 console.log(null >= 0); //true
 
 console.log("2" === 2);
+
+*/
+
+const id = Symbol('123')
+const anotherId = Symbol('123')
+
+console.log(id === anotherId); ///false
+
+
 
