@@ -73,12 +73,27 @@ console.log(null >= 0); //true
 
 console.log("2" === 2);
 
-*/
 
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
 console.log(id === anotherId); ///false
+
+*/
+
+const heroes = ["shaktiman", "naagraj", "ironman"]
+let myObj = {
+    name: "prateek",
+    age: 20,
+}
+
+const myFunction = function(){
+    console.log("Hello World");
+    
+}
+
+console.log(typeof myFunction);
+
 
 
 
