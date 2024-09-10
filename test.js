@@ -92,7 +92,10 @@ const myFunction = function(){
     
 }
 
-console.log(typeof myFunction);
+console.log(typeof myFunction); //function
+typeof undefined: //undefined
+typeof Symbol('id'):// "symbol"
+typeof null: //"object" 
 
 
 
