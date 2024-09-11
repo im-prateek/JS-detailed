@@ -79,7 +79,6 @@ const anotherId = Symbol('123')
 
 console.log(id === anotherId); ///false
 
-*/
 
 const heroes = ["shaktiman", "naagraj", "ironman"]
 let myObj = {
@@ -91,6 +90,7 @@ const myFunction = function(){
     console.log("Hello World");
     
 }
+*/
 
 console.log(typeof myFunction); //function
 typeof undefined: //undefined
@@ -98,5 +98,5 @@ typeof Symbol('id'):// "symbol"
 typeof null: //"object" 
 
 
-
+//heap and stack bariable
 
