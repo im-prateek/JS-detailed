@@ -90,13 +90,24 @@ const myFunction = function(){
     console.log("Hello World");
     
 }
-*/
 
 console.log(typeof myFunction); //function
 typeof undefined: //undefined
 typeof Symbol('id'):// "symbol"
 typeof null: //"object" 
 
+*/
 
 //heap and stack bariable
+
+let userOne = {
+    email: "user@google.com"
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "prateek@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
 
