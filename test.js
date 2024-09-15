@@ -96,18 +96,25 @@ typeof undefined: //undefined
 typeof Symbol('id'):// "symbol"
 typeof null: //"object" 
 
-*/
 
 //heap and stack bariable
 
 let userOne = {
-    email: "user@google.com"
+    email: "user@google.com",
     upi: "user@ybl"
 }
 
 let userTwo = userOne
 userTwo.email = "prateek@google.com"
-
 console.log(userOne.email);
 console.log(userTwo.email);
+
+*/
+
+let name = "prateek";
+let repoCount = 21
+
+console.log(name + repoCount + "Value");
+console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
+
 
