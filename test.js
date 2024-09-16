@@ -116,5 +116,4 @@ let repoCount = 21
 
 console.log(name + repoCount + "Value");
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
-
-
+console.log(`this is new method of variable ${repoCount}`);
