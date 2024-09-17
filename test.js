@@ -109,7 +109,6 @@ userTwo.email = "prateek@google.com"
 console.log(userOne.email);
 console.log(userTwo.email);
 
-*/
 
 let name = "prateek";
 let repoCount = 21
@@ -117,3 +116,19 @@ let repoCount = 21
 console.log(name + repoCount + "Value");
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 console.log(`this is new method of variable ${repoCount}`);
+
+*/
+
+const gameName = new String('prateek-hc-comp')
+console.log(gameName.split('-'));
+
+const newStringOne = "   prateek   "
+console.log(newStringOne);
+console.log(newStringOne.trim());
+
+const Url = "https://prateek.com/prateek%20kumar"
+console.log(url.replace('%20', '-'));
+console.log(url.includes('apple'));
+
+
+
