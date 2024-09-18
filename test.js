@@ -130,5 +130,6 @@ const Url = "https://prateek.com/prateek%20kumar"
 console.log(url.replace('%20', '-'));
 console.log(url.includes('apple'));
 
+console.log(gameName.split('_'));
 
 
