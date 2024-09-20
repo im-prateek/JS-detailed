@@ -117,7 +117,6 @@ console.log(name + repoCount + "Value");
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 console.log(`this is new method of variable ${repoCount}`);
 
-*/
 
 const gameName = new String('prateek-hc-comp')
 console.log(gameName.split('-'));
@@ -131,6 +130,18 @@ console.log(url.replace('%20', '-'));
 console.log(url.includes('apple'));
 
 console.log(gameName.split('_'));
+
+*/
+
+const balance = new Number(100)
+console.log(balance.toString().length);
+console.log(balance.toFixed(1));
+
+const othernumber = 123.8966
+console.log(othernumber.toPrecision(3)); //124
+console.log(othernumber.toPrecision(4)); //123.9
+
+
 
 
 
