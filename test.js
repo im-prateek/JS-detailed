@@ -131,7 +131,6 @@ console.log(url.includes('apple'));
 
 console.log(gameName.split('_'));
 
-*/
 
 const balance = new Number(100)
 console.log(balance.toString().length);
@@ -141,7 +140,18 @@ const othernumber = 123.8966
 console.log(othernumber.toPrecision(3)); //124
 console.log(othernumber.toPrecision(4)); //123.9
 
+*/
 
+const hundreds = 1000000
+console.log(hundreds.toLocaleString('en-In'));
+
+//++++++++++++++++++maths+++++++++++++++++++++
+console.log(Math);
+console.log(Math.abs(-5)); //absolute
+console.log(Math.round(4.6)); //roundoff
+console.log(Math.ceil(4.2)); //upper roundoff
+console.log(Math.floor(4.9)); //lower roundoff
+console.log(Math.min(4,3,6,8));// minimum
 
 
 
