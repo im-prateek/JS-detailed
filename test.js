@@ -153,6 +153,8 @@ console.log(Math.ceil(4.2)); //upper roundoff
 console.log(Math.floor(4.9)); //lower roundoff
 console.log(Math.min(4,3,6,8));// minimum
 
+console.log(Math.random());
+console.log((Math.random()*10) + 1);
 
 
 
