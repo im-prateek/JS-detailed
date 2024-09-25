@@ -140,7 +140,6 @@ const othernumber = 123.8966
 console.log(othernumber.toPrecision(3)); //124
 console.log(othernumber.toPrecision(4)); //123.9
 
-*/
 
 const hundreds = 1000000
 console.log(hundreds.toLocaleString('en-In'));
@@ -160,4 +159,17 @@ const min = 10
 const max = 20
 
 console.log(Math.floor(Math.random() * (max - min + 1)) + min);
+
+*/
+
+let mydate = new Date()
+console.log(mydate);
+console.log(mydate.toString()); //Wed Sep 25 2024 21:02:10 GMT+0530 (India Standard Time)
+console.log(mydate.toDateString()); //Wed Sep 25 2024
+console.log(mydate.toLocaleString()); //25/9/2024, 9:02:10 pm
+console.log(typeof mydate);
+
+let createdDate = new Date (2023, 0, 23)
+console.log(createdDate.toDateString()); //Mon Jan 23 2023
+
 
