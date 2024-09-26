@@ -169,7 +169,7 @@ console.log(mydate.toDateString()); //Wed Sep 25 2024
 console.log(mydate.toLocaleString()); //25/9/2024, 9:02:10 pm
 console.log(typeof mydate);
 
-let createdDate = new Date (2023, 0, 23)
-console.log(createdDate.toDateString()); //Mon Jan 23 2023
-
+// let createdDate = new Date (2023, 0, 23) //Mon Jan 23 2023
+let createdDate = new Date (2023, 0, 23, 5, 3)
+console.log(createdDate.toLocaleString()); //23/1/2023, 5:03:00 am
 
